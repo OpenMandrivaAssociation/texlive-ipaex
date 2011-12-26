@@ -1,4 +1,4 @@
-# revision 24627
+# revision 24869
 # category Package
 # catalog-ctan /fonts/ipaex
 # catalog-date 2011-11-03 09:19:42 +0100
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ipaex
 Version:	20111103
-Release:	1
+Release:	2
 Summary:	IPA and IPAex fonts from Information-technology Promotion Agency, Japan
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/ipaex
@@ -17,27 +17,25 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The fonts provide fixed-width glyphs for Kana and Kanji
 characters, proportional width glyphs for Western characters.
 
 %pre
-    %_texmf_mktexlsr_pre
+    %{_sbindir}/texlive.post
 
 %post
-    %_texmf_mktexlsr_post
+    %{_sbindir}/texlive.post
 
 %preun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
+	%{_sbindir}/texlive.post
     fi
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
