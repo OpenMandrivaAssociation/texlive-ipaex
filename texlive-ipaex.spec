@@ -22,16 +22,8 @@ Requires(post):	texlive-kpathsea
 The fonts provide fixed-width glyphs for Kana and Kanji
 characters, proportional width glyphs for Western characters.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -50,7 +42,6 @@ characters, proportional width glyphs for Western characters.
 %{_texmfdistdir}/fonts/truetype/public/ipaex/ipam.ttf
 %doc %{_texmfdistdir}/doc/fonts/ipaex/Copyright
 %doc %{_texmfdistdir}/doc/fonts/ipaex/README
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,5 +52,3 @@ characters, proportional width glyphs for Western characters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
