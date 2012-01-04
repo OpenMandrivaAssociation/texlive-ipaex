@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ipaex
 Version:	20111103
-Release:	2
+Release:	3
 Summary:	IPA and IPAex fonts from Information-technology Promotion Agency, Japan
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/ipaex
