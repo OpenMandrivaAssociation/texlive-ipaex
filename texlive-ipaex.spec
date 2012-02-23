@@ -1,4 +1,4 @@
-# revision 24869
+# revision 25360
 # category Package
 # catalog-ctan /fonts/ipaex
 # catalog-date 2011-11-03 09:19:42 +0100
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ipaex
 Version:	20111103
-Release:	3
+Release:	4
 Summary:	IPA and IPAex fonts from Information-technology Promotion Agency, Japan
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/ipaex
@@ -32,10 +32,6 @@ characters, proportional width glyphs for Western characters.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/map/dvipdfmx/ipaex/otf-ipa.map
-%{_texmfdistdir}/fonts/map/dvipdfmx/ipaex/otf-ipaex.map
-%{_texmfdistdir}/fonts/map/dvipdfmx/ipaex/ptex-ipa.map
-%{_texmfdistdir}/fonts/map/dvipdfmx/ipaex/ptex-ipaex.map
 %{_texmfdistdir}/fonts/truetype/public/ipaex/ipaexg.ttf
 %{_texmfdistdir}/fonts/truetype/public/ipaex/ipaexm.ttf
 %{_texmfdistdir}/fonts/truetype/public/ipaex/ipag.ttf
