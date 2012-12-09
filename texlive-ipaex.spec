@@ -48,3 +48,28 @@ characters, proportional width glyphs for Western characters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111103-4
++ Revision: 779466
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111103-3
++ Revision: 752806
+- Rebuild to reduce used resources
+
+* Mon Dec 26 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-2
++ Revision: 745243
+- texlive-ipaex
+
+* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-1
++ Revision: 732521
+- texlive-ipaex
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111102-1
++ Revision: 718733
+- texlive-ipaex
+- texlive-ipaex
+- texlive-ipaex
+
