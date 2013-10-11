@@ -1,4 +1,4 @@
-# revision 25360
+# revision 29849
 # category Package
 # catalog-ctan /fonts/ipaex
 # catalog-date 2011-11-03 09:19:42 +0100
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ipaex
 Version:	20111103
-Release:	4
+Release:	5
 Summary:	IPA and IPAex fonts from Information-technology Promotion Agency, Japan
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/ipaex
@@ -48,28 +48,3 @@ characters, proportional width glyphs for Western characters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111103-4
-+ Revision: 779466
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111103-3
-+ Revision: 752806
-- Rebuild to reduce used resources
-
-* Mon Dec 26 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-2
-+ Revision: 745243
-- texlive-ipaex
-
-* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-1
-+ Revision: 732521
-- texlive-ipaex
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111102-1
-+ Revision: 718733
-- texlive-ipaex
-- texlive-ipaex
-- texlive-ipaex
-
