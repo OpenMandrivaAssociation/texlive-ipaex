@@ -1,5 +1,5 @@
 Name:		texlive-ipaex
-Version:	20171112
+Version:	20180303
 Release:	1
 Summary:	IPA and IPAex fonts from Information-technology Promotion Agency, Japan
 Group:		Publishing
