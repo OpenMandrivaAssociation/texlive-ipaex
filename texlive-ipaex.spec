@@ -1,6 +1,6 @@
 Name:		texlive-ipaex
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	IPA and IPAex fonts from Information-technology Promotion Agency, Japan
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/ipaex
