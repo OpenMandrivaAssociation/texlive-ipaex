@@ -3,7 +3,7 @@ Version:	61719
 Release:	2
 Summary:	IPA and IPAex fonts from Information-technology Promotion Agency, Japan
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/ipaex
+URL:		https://www.ctan.org/tex-archive/fonts/ipaex
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ipaex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ipaex.doc.r%{version}.tar.xz
